@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.img_container img {
+    height: 100%;
+    width: 100%;
+    margin: auto 0;
+    border-radius: 30px;
+}
+
+.img_container {
+    height: 90vh;
+    width: 40%;
+    margin: 0 30px;
+    position: relative;
+}
+
+.fa-solid {
+    font-size: 2rem;
+}
+.container_dots{
+    display: flex;
+    justify-content:center;
+}
+
+.slider_dots {
+    position: absolute;
+    bottom: 60px;
+    display: flex;
+    height: 40px;
+    width: 200px;
+    background-color: rgba(204, 204, 204, 0.653);
+    border-radius: 10px;
+}
+
+.dot {
+    margin: auto;
+    height: 20px;
+    width:20px;
+    background-color: rgba(255, 255, 255, 0.816);
+    border-radius:50%;
+
+}
+.blue{
+    background-color:rgba(0, 148, 240, 0.918)
+}
